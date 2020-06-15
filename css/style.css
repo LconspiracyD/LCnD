@@ -157,3 +157,33 @@ nav ul li a.active {
 	text-align: center;
 	padding-top: 635px;
 }
+
+.LCcollection {
+	font-size: 70px;
+	text-align: left;
+	padding-top: 170px;
+	padding-bottom: 30px;
+	margin-left: 375px;
+}
+
+.Inventory {
+	font-size: 70px;
+	text-align: right;
+	margin-top: -101px;
+	padding-bottom: 30px;
+	margin-right: 375px;
+}
+
+.lclogoindex {
+	margin-top: 75px;
+	margin-left: 365px;
+	margin-bottom: 150px;
+	float: left;
+}
+
+.danberlogoindex {
+	margin-top: 60px;
+	margin-right: 375px;
+	margin-bottom: 150px;
+	float: right;
+}
