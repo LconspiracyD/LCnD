@@ -49,11 +49,6 @@ table {
 	src: url("../fonts/hemi head bd it.ttf");
 }
 
-.container {
-	width: 1000px;
-	margin: 0 auto;
-}
-
 a {
 	color: white;
 	text-decoration: none;
@@ -85,6 +80,13 @@ a {
 
 
 
+
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
 .indexheader {
 	background-color: black;
 	height: 102px;
@@ -96,7 +98,7 @@ a {
 
 .indexheader img {
 	margin-top: 10px;
-	margin-left: 35px;
+	margin-left: 100px;
 	float: left;
 }
 
@@ -121,7 +123,7 @@ a {
 
 .othersheader nav ul li a {
 	font-family: hemi;
-	font-size: 15px;
+	font-size: 100px;
 }
 
 nav {
@@ -187,7 +189,7 @@ nav ul li a.active {
 	font-size: 28px;
 	text-align: center;
 	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-bottom: 450px;
 }
 
 .prices_file_download {
@@ -200,35 +202,36 @@ nav ul li a.active {
 .download_sign {
 	font-size: 40px;
 	text-align: center;
-	padding-top: 500px;
+	padding-top: 635px;
 }
 
 .LCcollection {
 	font-size: 70px;
-	text-align: left;
-	padding-top: 240px;
+	text-align: center;
+	padding-top: 180px;
 	padding-bottom: 30px;
-	margin-left: 340px;
+	margin-left: 20px;
 }
 
 .Inventory {
 	font-size: 70px;
-	text-align: right;
-	margin-top: -101px;
+	text-align: center;
+	margin-top: 480px;
 	padding-bottom: 30px;
-	margin-right: 315px;
+	margin-left: 50px;
+	position: absolute;
 }
 
 .lclogoindex {
-	margin-top: 75px;
-	margin-left: 365px;
+	margin-top: 0px;
+	margin-left: 30px;
 	margin-bottom: 150px;
 	float: left;
 }
 
 .danberlogoindex {
-	margin-top: 60px;
-	margin-right: 375px;
+	margin-top: 120px;
+	margin-right: 0px;
 	margin-bottom: 150px;
 	float: right;
 }
@@ -256,3 +259,5 @@ html {
 .fontfamindex3 {
 	font-family: aero;
 }
+
+    }
