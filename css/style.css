@@ -206,31 +206,46 @@ nav ul li a.active {
 .LCcollection {
 	font-size: 70px;
 	text-align: left;
-	padding-top: 240px;
-	padding-bottom: 30px;
+	padding-top: 425px;
+	padding-bottom: 0px;
 	margin-left: 340px;
 }
 
 .Inventory {
 	font-size: 70px;
 	text-align: right;
-	margin-top: -101px;
-	padding-bottom: 30px;
+	margin-top: -70px;
 	margin-right: 315px;
 }
 
 .lclogoindex {
-	margin-top: 75px;
+	margin-top: 40px;
 	margin-left: 365px;
-	margin-bottom: 150px;
 	float: left;
 }
 
+.lclogoindexalt {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	float: left;
+	width: 0px; 
+	height: 0px;
+}
+
 .danberlogoindex {
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-right: 375px;
-	margin-bottom: 150px;
 	float: right;
+}
+
+.danberlogoindexalt {
+	margin-top: 0px;
+	margin-right: -630px;
+	margin-bottom: 0px;
+	float: right;
+	width: 0px; 
+	height: 0px
 }
 
 html {
@@ -255,4 +270,20 @@ html {
 
 .fontfamindex3 {
 	font-family: aero;
+}
+
+#logo {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+@keyframes fill{
+	from{
+		fill:transparent;
+	}
+	to{
+		fill: white;
+	}
 }

@@ -84,8 +84,8 @@ a {
 
 @media only screen 
     and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {  
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
 
 .indexheader {
 	background-color: black;
@@ -97,11 +97,9 @@ a {
 }
 
 .indexheader img {
-	margin-top: 30px;
-	margin-left: -70px;
+	margin-top: 10px;
+	margin-left: 95px;
 	float: left;
-	height: 200px;
-	padding-bottom: 30px;
 }
 
 .othersheader {
@@ -113,19 +111,21 @@ a {
 }
 
 .othersheader img {
-	margin-top: 7px;
-	margin-left: 35px;
+	margin-top: 40px;
+	margin-left: -200px;
+	padding-bottom: 40px;
 	float: left;
-	height: 45px
+	height: 200px
 }
 
 .othersheader nav ul {
-	margin-top: 6px;
+	margin-right: -225px;
+	margin-top: 103px;
 }
 
 .othersheader nav ul li a {
 	font-family: hemi;
-	font-size: 100px;
+	font-size: 40px;
 }
 
 nav {
@@ -133,8 +133,7 @@ nav {
 }
 
 nav ul {
-	margin-top: 100px;
-	margin-right: -525px;
+	margin-top: 26px;
 }
 
 nav ul li {
@@ -144,7 +143,7 @@ nav ul li {
 
 nav ul li a {
 	font-family: hemi;
-	font-size: 50px;
+	font-size: 19px;
 }
 
 nav ul li a:hover{
@@ -209,58 +208,34 @@ nav ul li a.active {
 }
 
 .LCcollection {
-	font-size: 170px;
+	font-size: 70px;
 	text-align: center;
-	padding-top: 700px;
+	padding-top: 180px;
 	padding-bottom: 30px;
-	margin-left: 180px;
-	position: absolute;
+	margin-left: 50px;
 }
 
 .Inventory {
-	font-size: 170px;
+	font-size: 70px;
 	text-align: center;
-	margin-top: 2180px;
+	margin-top: 480px;
 	padding-bottom: 30px;
-	margin-left: 165px;
+	margin-left: 50px;
 	position: absolute;
 }
 
 .lclogoindex {
-	margin-top: 1100px;
-	margin-left: 190px;
+	margin-top: 0px;
+	margin-left: 30px;
 	margin-bottom: 150px;
 	float: left;
-	width: 20px; 
-	height: 1px;
-	
-}
-
-.lclogoindexalt {
-	margin-top: -100px;
-	margin-left: 192px;
-	margin-bottom: 150px;
-	float: left;
-	width: 800px; 
-	height: 800px;
 }
 
 .danberlogoindex {
-	margin-top: 580px;
-	margin-right: -630px;
-	margin-bottom: 150px;
-	float: left;
-	width: 1px; 
-	height: 1px;
-}
-
-.danberlogoindexalt {
-	margin-top: 580px;
-	margin-right: -630px;
+	margin-top: 120px;
+	margin-right: -35px;
 	margin-bottom: 150px;
 	float: right;
-	width: 800px; 
-	height: 800px
 }
 
 html {
@@ -288,10 +263,3 @@ html {
 }
 
     }
-
-#logo {
-	position: absolute;
-	top: 50%;
-	left: 160%;
-	transform: translate(-50%,-50%);
-}

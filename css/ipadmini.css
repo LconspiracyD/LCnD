@@ -83,8 +83,7 @@ a {
 
 
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
+    and (device-width : 768px)  
     and (-webkit-device-pixel-ratio : 2) { 
 
 		.indexheader {
@@ -97,8 +96,8 @@ a {
 		}
 		
 		.indexheader img {
-			margin-top: 30px;
-			margin-left: -70px;
+			margin-top: 40px;
+			margin-left: -200px;
 			float: left;
 			height: 200px;
 			padding-bottom: 30px;
@@ -134,7 +133,7 @@ a {
 		
 		nav ul {
 			margin-top: 100px;
-			margin-right: -525px;
+			margin-right: -200px;
 		}
 		
 		nav ul li {
@@ -144,7 +143,7 @@ a {
 		
 		nav ul li a {
 			font-family: hemi;
-			font-size: 50px;
+			font-size: 38px;
 		}
 		
 		nav ul li a:hover{
@@ -211,24 +210,24 @@ a {
 		.LCcollection {
 			font-size: 170px;
 			text-align: center;
-			padding-top: 700px;
+			padding-top: 630px;
 			padding-bottom: 30px;
-			margin-left: 180px;
+			margin-left: 285px;
 			position: absolute;
 		}
 		
 		.Inventory {
 			font-size: 170px;
 			text-align: center;
-			margin-top: 2180px;
+			margin-top: 1950px;
 			padding-bottom: 30px;
-			margin-left: 165px;
+			margin-left: 280px;
 			position: absolute;
 		}
 		
 		.lclogoindex {
-			margin-top: 1100px;
-			margin-left: 190px;
+			margin-top: 990px;
+			margin-left: 300px;
 			margin-bottom: 150px;
 			float: left;
 			width: 800px; 
@@ -237,7 +236,7 @@ a {
 		
 		.danberlogoindex {
 			margin-top: 580px;
-			margin-right: -630px;
+			margin-right: -380px;
 			margin-bottom: 150px;
 			float: right;
 			width: 800px; 
@@ -272,7 +271,9 @@ a {
 		
 		#logo {
 			position: absolute;
-			top: 58%;
-			left: 160%;
+			top: 42%;
+			left: 105%;
+			padding-right: 150px;
 			transform: translate(-50%,-50%);
 		}
+		

@@ -87,177 +87,211 @@ a {
     and (device-height : 736px) 
     and (-webkit-device-pixel-ratio : 3) { 
 
-.indexheader {
-	background-color: black;
-	height: 102px;
-	width: 100%;
-	position: sticky;
-	top: 0;
-	z-index: 99;
-}
-
-.indexheader img {
-	margin-top: 10px;
-	margin-left: 100px;
-	float: left;
-}
-
-.othersheader {
-	background-color: black;
-	height: 60px;
-	width: 100%;
-	top: 0;
-	z-index: 100;
-}
-
-.othersheader img {
-	margin-top: 7px;
-	margin-left: 35px;
-	float: left;
-	height: 45px
-}
-
-.othersheader nav ul {
-	margin-top: 6px;
-}
-
-.othersheader nav ul li a {
-	font-family: hemi;
-	font-size: 100px;
-}
-
-nav {
-	float: right;
-}
-
-nav ul {
-	margin-top: 26px;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 55px;
-}
-
-nav ul li a {
-	font-family: hemi;
-	font-size: 19px;
-}
-
-nav ul li a:hover{
-	background-color: #c163e0;
-	border-radius: 7px;
-	transition: all 0.5s;
-}
-
-nav ul li a.active {
-	background-color: #7f3d98;
-	border-radius: 7px;
-}
-
-.trading_button {
-	font-size: 40px;
-	text-align: center;
-	padding-top: 200px;
-}
-
-.prices_button {
-	font-size: 40px;
-	text-align: center;
-	padding-top: 200px;
-}
-
-#fixed-header {
-	background-color: black;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 99;
-}
-
-#fixed-header-other {
-	background-color: black;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 99;	
-}
-
-.trading_file_download {
-	font-size: 28px;
-	text-align: center;
-	padding-top: 300px;
-	padding-bottom: 450px;
-}
-
-.prices_file_download {
-	font-size: 28px;
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 50px;
-}
-
-.download_sign {
-	font-size: 40px;
-	text-align: center;
-	padding-top: 635px;
-}
-
-.LCcollection {
-	font-size: 70px;
-	text-align: center;
-	padding-top: 180px;
-	padding-bottom: 30px;
-	margin-left: 20px;
-}
-
-.Inventory {
-	font-size: 70px;
-	text-align: center;
-	margin-top: 480px;
-	padding-bottom: 30px;
-	margin-left: 50px;
-	position: absolute;
-}
-
-.lclogoindex {
-	margin-top: 0px;
-	margin-left: 30px;
-	margin-bottom: 150px;
-	float: left;
-}
-
-.danberlogoindex {
-	margin-top: 120px;
-	margin-right: 0px;
-	margin-bottom: 150px;
-	float: right;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-#clickscroll {
-	position: absolute;
-	font-size: 50px;
-	float: left;
-	margin-top: -90px;
-	margin-left: 330px;
-}
-
-.fontfamindex {
-	font-family: hemi;
-}
-
-.fontfamindex2 {
-	font-family: hemi;
-}
-
-.fontfamindex3 {
-	font-family: aero;
-}
-
-    }
+		.indexheader {
+			background-color: black;
+			height: 102px;
+			width: 100%;
+			position: sticky;
+			top: 0;
+			z-index: 99;
+		}
+		
+		.indexheader img {
+			margin-top: 30px;
+			margin-left: -70px;
+			float: left;
+			height: 200px;
+			padding-bottom: 30px;
+		}
+		
+		.othersheader {
+			background-color: black;
+			height: 60px;
+			width: 100%;
+			top: 0;
+			z-index: 100;
+		}
+		
+		.othersheader img {
+			margin-top: 7px;
+			margin-left: 35px;
+			float: left;
+			height: 45px
+		}
+		
+		.othersheader nav ul {
+			margin-top: 6px;
+		}
+		
+		.othersheader nav ul li a {
+			font-family: hemi;
+			font-size: 100px;
+		}
+		
+		nav {
+			float: right;
+		}
+		
+		nav ul {
+			margin-top: 100px;
+			margin-right: -630px;
+		}
+		
+		nav ul li {
+			display: inline-block;
+			margin-right: 55px;
+		}
+		
+		nav ul li a {
+			font-family: hemi;
+			font-size: 60px;
+		}
+		
+		nav ul li a:hover{
+			background-color: #c163e0;
+			border-radius: 7px;
+			transition: all 0.5s;
+		}
+		
+		nav ul li a.active {
+			background-color: #7f3d98;
+			border-radius: 7px;
+		}
+		
+		.trading_button {
+			font-size: 40px;
+			text-align: center;
+			padding-top: 200px;
+		}
+		
+		.prices_button {
+			font-size: 40px;
+			text-align: center;
+			padding-top: 200px;
+		}
+		
+		#fixed-header {
+			background-color: black;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: 99;
+		}
+		
+		#fixed-header-other {
+			background-color: black;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			z-index: 99;	
+		}
+		
+		.trading_file_download {
+			font-size: 28px;
+			text-align: center;
+			padding-top: 300px;
+			padding-bottom: 450px;
+		}
+		
+		.prices_file_download {
+			font-size: 28px;
+			text-align: center;
+			padding-top: 200px;
+			padding-bottom: 50px;
+		}
+		
+		.download_sign {
+			font-size: 40px;
+			text-align: center;
+			padding-top: 635px;
+		}
+		
+		.LCcollection {
+			font-size: 170px;
+			text-align: center;
+			padding-top: 700px;
+			padding-bottom: 30px;
+			margin-left: 180px;
+			position: absolute;
+		}
+		
+		.Inventory {
+			font-size: 170px;
+			text-align: center;
+			margin-top: 2180px;
+			padding-bottom: 30px;
+			margin-left: 165px;
+			position: absolute;
+		}
+		
+		.lclogoindex {
+			margin-top: 1100px;
+			margin-left: 190px;
+			margin-bottom: 150px;
+			float: left;
+			width: 20px; 
+			height: 1px;
+			
+		}
+		
+		.lclogoindexalt {
+			margin-top: -100px;
+			margin-left: 192px;
+			margin-bottom: 150px;
+			float: left;
+			width: 800px; 
+			height: 800px;
+		}
+		
+		.danberlogoindex {
+			margin-top: 580px;
+			margin-right: -630px;
+			margin-bottom: 150px;
+			float: left;
+			width: 1px; 
+			height: 1px;
+		}
+		
+		.danberlogoindexalt {
+			margin-top: 580px;
+			margin-right: -630px;
+			margin-bottom: 150px;
+			float: right;
+			width: 800px; 
+			height: 800px
+		}
+		
+		html {
+		  scroll-behavior: smooth;
+		}
+		
+		#clickscroll {
+			position: absolute;
+			font-size: 50px;
+			float: left;
+			margin-top: -90px;
+			margin-left: 330px;
+		}
+		
+		.fontfamindex {
+			font-family: hemi;
+		}
+		
+		.fontfamindex2 {
+			font-family: hemi;
+		}
+		
+		.fontfamindex3 {
+			font-family: aero;
+		}
+		
+			}
+		
+		#logo {
+			position: absolute;
+			top: 55%;
+			left: 147%;
+			transform: translate(-50%,-50%);
+		}

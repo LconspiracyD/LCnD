@@ -83,9 +83,9 @@ a {
 
 
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {  
+    and (device-width : 768px) 
+    and (device-height : 1024px) 
+    and (-webkit-device-pixel-ratio : 2) {  
 
 .indexheader {
 	background-color: black;
@@ -97,10 +97,10 @@ a {
 }
 
 .indexheader img {
-	margin-top: 30px;
-	margin-left: -70px;
+	margin-top: 25px;
+	margin-left: 19px;
 	float: left;
-	height: 200px;
+	height: 135px;
 	padding-bottom: 30px;
 }
 
@@ -133,18 +133,18 @@ nav {
 }
 
 nav ul {
-	margin-top: 100px;
-	margin-right: -525px;
+	margin-top: 65px;
+	margin-right: 10px;
 }
 
 nav ul li {
 	display: inline-block;
-	margin-right: 55px;
+	margin-right: 45px;
 }
 
 nav ul li a {
 	font-family: hemi;
-	font-size: 50px;
+	font-size: 25px;
 }
 
 nav ul li a:hover{
@@ -165,9 +165,9 @@ nav ul li a.active {
 }
 
 .prices_button {
-	font-size: 40px;
+	font-size: 78px;
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 465px;
 }
 
 #fixed-header {
@@ -189,10 +189,9 @@ nav ul li a.active {
 }
 
 .trading_file_download {
-	font-size: 28px;
+	font-size: 50px;
 	text-align: center;
-	padding-top: 300px;
-	padding-bottom: 450px;
+	padding-top: 330px;
 }
 
 .prices_file_download {
@@ -231,16 +230,6 @@ nav ul li a.active {
 	margin-left: 190px;
 	margin-bottom: 150px;
 	float: left;
-	width: 20px; 
-	height: 1px;
-	
-}
-
-.lclogoindexalt {
-	margin-top: -100px;
-	margin-left: 192px;
-	margin-bottom: 150px;
-	float: left;
 	width: 800px; 
 	height: 800px;
 }
@@ -249,18 +238,9 @@ nav ul li a.active {
 	margin-top: 580px;
 	margin-right: -630px;
 	margin-bottom: 150px;
-	float: left;
-	width: 1px; 
-	height: 1px;
-}
-
-.danberlogoindexalt {
-	margin-top: 580px;
-	margin-right: -630px;
-	margin-bottom: 150px;
 	float: right;
 	width: 800px; 
-	height: 800px
+	height: 800px;
 }
 
 html {
