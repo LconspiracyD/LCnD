@@ -103,8 +103,9 @@ a {
 
 .indexheader img {
 	margin-top: 10px;
-	margin-left: 35px;
+	margin-left: 70px;
 	float: left;
+	padding-bottom: 20px;
 }
 
 .othersheader {
@@ -141,7 +142,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin-right: 45px;
+	margin-right: 37px;
 }
 
 nav ul li a {
@@ -244,8 +245,9 @@ html {
 }
 
 #logo {
-	margin-top: 190px; /*I added this as well to change the margin on the top of the svg logo :)*/
-	margin-bottom: 120px; /*Same here but for the bottom, you might want to change the pixels :) :)*/
+	margin-top: 175px; /*I added this as well to change the margin on the top of the svg logo :)*/
+	margin-bottom: 90px; /*Same here but for the bottom, you might want to change the pixels :) :)*/
+	margin-left: 20px;
 }
 
 @keyframes fill{
