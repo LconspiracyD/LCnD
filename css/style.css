@@ -260,3 +260,11 @@ html {
 #topspace {
 	padding-top: 50px;
 }
+
+.indeximg a img {
+	display: block;
+	max-width: 400px;
+	max-height: 400px;
+	width: auto;
+	height: auto;
+}
