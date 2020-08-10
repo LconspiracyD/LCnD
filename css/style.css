@@ -1,3 +1,9 @@
+a {
+	text-decoration: none !important;
+	color:white!important;
+}
+  
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background: black!important;
 	line-height: 1;
 }
 blockquote, q {
@@ -116,7 +123,7 @@ a {
 }
 
 .othersheader nav ul {
-	margin-top: 6px;
+	margin-top: -22px;
 }
 
 .othersheader nav ul li a {
@@ -129,7 +136,7 @@ nav {
 }
 
 nav ul {
-	margin-top: 26px;
+	margin-top: 0px;
 }
 
 nav ul li {
@@ -203,50 +210,8 @@ nav ul li a.active {
 	padding-top: 500px;
 }
 
-.LCcollection {
-	font-size: 70px;
-	text-align: left;
-	padding-top: 425px;
-	padding-bottom: 0px;
-	margin-left: 340px;
-}
 
-.Inventory {
-	font-size: 70px;
-	text-align: right;
-	margin-top: -70px;
-	margin-right: 315px;
-}
 
-.lclogoindex {
-	margin-top: 40px;
-	margin-left: 365px;
-	float: left;
-}
-
-.lclogoindexalt {
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	float: left;
-	width: 0px; 
-	height: 0px;
-}
-
-.danberlogoindex {
-	margin-top: 30px;
-	margin-right: 375px;
-	float: right;
-}
-
-.danberlogoindexalt {
-	margin-top: 0px;
-	margin-right: -630px;
-	margin-bottom: 0px;
-	float: right;
-	width: 0px; 
-	height: 0px
-}
 
 html {
   scroll-behavior: smooth;
@@ -258,6 +223,12 @@ html {
 	float: left;
 	margin-top: -90px;
 	margin-left: 330px;
+}
+
+.font-size-60 /*I added this to the CSS :)*/
+{
+	font-size: 60px;
+	color:white;
 }
 
 .fontfamindex {
@@ -273,10 +244,8 @@ html {
 }
 
 #logo {
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	margin-top: 190px; /*I added this as well to change the margin on the top of the svg logo :)*/
+	margin-bottom: 120px; /*Same here but for the bottom, you might want to change the pixels :) :)*/
 }
 
 @keyframes fill{
@@ -287,3 +256,4 @@ html {
 		fill: white;
 	}
 }
+
