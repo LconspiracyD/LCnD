@@ -127,7 +127,7 @@ nav {
         flex-direction: column;
         z-index: 100;
         padding-top: 100vh;
-        padding-bottom: 5vh;
+        padding-bottom: 20vh;
         /*display: none; */
         clip-path: circle(100px at 50% 10%);
         -webkit-clip-path: circle(100px at 50% 10%);
