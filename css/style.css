@@ -14,6 +14,28 @@
 	src: url("../fonts/hemi head bd it.ttf");
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 0px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #601d80; 
+    border-radius: 3px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7925a1; 
+}
+
 header {
     width: 100%;
 }
@@ -99,7 +121,7 @@ nav {
     }
     .nav-links {
         position: fixed;
-        background: rgb(66, 66, 66);
+        background: rgb(39, 39, 39);
         height: 200vh;
         width: 100%;
         flex-direction: column;
@@ -139,6 +161,14 @@ nav {
     li.fade {
         opacity: 1;
     }
+    .indexphotos {
+        flex-direction: column;
+        align-items: center;
+    }
+    #danberlogo {
+        margin-top: 130px;
+        margin-bottom: 75px;
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -160,6 +190,10 @@ nav {
         height: 45px;
         max-width: 100vw;
     }
+}
+
+@media screen and (max-width:450px) {
+    
 }
 
 @keyframes navLinkFade {
@@ -195,4 +229,25 @@ nav {
 
 #svglogo1 {
     width: 1000px;
+}
+
+#lclogo {
+    max-width: 550px;
+    width: 80%;
+    height: auto;
+    transform: translate(13%);
+}
+
+#danberlogo {
+    max-width: 550px;
+    width: 80%;
+    height: auto;
+    transform: translate(13%);
+}
+
+.indexphotos {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 10vh;
 }
