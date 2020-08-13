@@ -182,7 +182,7 @@ nav {
         margin-bottom: 75px;
     }
     #aboutpagetext1 {
-        font-size: 0.9em;
+        font-size: 0.79em;
     }
 }
 
@@ -286,30 +286,5 @@ nav {
    padding-top: 30px;
    letter-spacing: 2px;
    font-size: 1.5em;
-}
-
-#aboutpagetext2 p {
-    color: white;
-    font-family: nasal;
-    text-align: center;
-    margin: 0 auto;
-    padding-right: 1px;
-    padding-left: 1px;
-    padding-top: 30px;
-    letter-spacing: 2px;
-    font-size: 10px;
-    display: none;
-}
-
- #aboutpagetext3 p {
-    color: white;
-    font-family: nasal;
-    text-align: center;
-    margin: 0 auto;
-    padding-right: 1px;
-    padding-left: 1px;
-    padding-top: 30px;
-    letter-spacing: 2px;
-    font-size: 1.5vw;
-    display: none;
+   max-width: 80vw;
 }
