@@ -12,5 +12,5 @@ burger.addEventListener("click", () => {
 
     //Burger Animation
     burger.classList.toggle('toggle');
-    
+
 });

@@ -10,6 +10,11 @@
 }
 
 @font-face {
+	font-family: nasal;
+	src: url("../fonts/nasalization-rg.ttf");
+}
+
+@font-face {
 	font-family: hemi;
 	src: url("../fonts/hemi head bd it.ttf");
 }
@@ -101,12 +106,19 @@ nav {
     transition: all 0.4s ease;
 }
 
+.disablescroll {
+    overflow-y: hidden;
+}
+
 @media screen and (max-width:1230px) {
     .nav-links {
         width: 45%;
     }
     #svglogo1 {
         height: 120px;
+    }
+    #aboutpagetext1 {
+        font-size: 0.9em;
     }
 }
 
@@ -168,6 +180,9 @@ nav {
     #danberlogo {
         margin-top: 130px;
         margin-bottom: 75px;
+    }
+    #aboutpagetext1 {
+        font-size: 0.9em;
     }
 }
 
@@ -250,4 +265,51 @@ nav {
     margin: auto;
     justify-content: space-around;
     margin-top: 10vh;
+}
+
+#abouttext {
+    color: white;
+    font-family: hemi;
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#aboutpagetext1 p {
+   color: white;
+   font-family: nasal;
+   text-align: center;
+   margin: 0 auto;
+   padding-right: 0 auto;
+   padding-left: 0 auto;
+   padding-top: 30px;
+   letter-spacing: 2px;
+   font-size: 1.5em;
+}
+
+#aboutpagetext2 p {
+    color: white;
+    font-family: nasal;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    display: none;
+}
+
+ #aboutpagetext3 p {
+    color: white;
+    font-family: nasal;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 1.5vw;
+    display: none;
 }
